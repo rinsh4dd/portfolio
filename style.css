@@ -11,7 +11,7 @@
  }
 
  .navbar {
-     background: #111418 !important;
+     backdrop-filter: blur(3px);
      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
      position: sticky;
      top: 0;
@@ -32,9 +32,9 @@
      color: #ffffff !important;
      font-weight: 400;
      letter-spacing: 1px;
+     ;
      
  }
-
 
  .nav-link:hover {
      color: aqua !important;
@@ -122,12 +122,9 @@
      border-radius: 4px;
  }
 
- #about-main {
-     height: 65vh;
- }
 
  #abt-sec {
-     line-height: 35px;
+     line-height: 30px;
  }
 
  .lead {
@@ -187,15 +184,13 @@
      }
  }
 
-
- footer {
-     border-top: 2px solid #00e5ff33;
-     background: linear-gradient(90deg, #181c20 60%, #00e5ff22 100%);
-     
- }
 .footer-text{
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.footer-icon:hover{
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
 }
