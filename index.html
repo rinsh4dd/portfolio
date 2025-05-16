@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinshad's Portfolio</title>
+    <link rel="shortcut icon" href="./images/rinshad.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+</head>
+
+<body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rinshad.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNav">
+                <ul class="navbar-nav mb-2 mb-lg-0 pl">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="container my-5 hero-section" id="">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="./images/myImg/rinshad.jpg" alt="Rinshad" class="img-fluid rounded-circle mb-3"
+                    style="max-width: 200px; border: 3px solid #00e5ff; box-shadow: 0 0 15px #00e5ff44;">
+            </div>
+            <div class="col-md-8">
+                <h1 class="display-4">Hey there, I'm <span style="color: aqua;">Rinshad.</span></h1>
+                <p class="lead" id="lead=-AX0E5968U7">I'm a <span style="font-weight: 700;">&nbsp;Web Developer &nbsp;
+                    </span> skilled in HTML, CSS, JavaScript, and Bootstrap. I enjoy building
+                    responsive, user-friendly websites and always strive to deliver clean, high-quality code.</p>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="container my-5" id="about">
+        <h2 class="mb-4" style="color:#00e5ff; font-weight: 700; " data-aos="fade-down" data-aos-duration="1600">about.</h2>
+        <div class="row">
+            <div class="col-md-8" id="about-main" data-aos="fade-right" data-aos-duration="1600">
+                <p id="abt-sec">
+                    Hey! I’m <span style="color: aqua; font-weight: 600;">Mohammed Rinshad,</span> a passionate and
+                    curious developer with a deep love for creating clean,
+                    functional, and meaningful web experiences. I’ve recently completed my BCA and am now fully focused
+                    on mastering the MERN stack to become a powerful full-stack developer. I value hard work,
+                    simplicity, and staying true to roots — combining modern tech with traditional dedication. Whether
+                    it's building responsive front-ends or crafting efficient back-ends, I enjoy turning ideas into
+                    reality through code. Beyond the screen, I’m someone who believes in consistency, relationships, and
+                    growing step-by-step every day — with code, with life, and with heart.
+
+                    <br>
+                    <br>
+                    I recently completed a full-stack rental web application as my final year project, focusing on
+                    real-time booking, user authentication, and responsive UI design. I’ve also completed a 30-day
+                    Flutter workshop, gaining a solid foundation in mobile app development.
+                    <br>
+                </p>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container my-5" id="projects">
+        <h2 class="mb-4" style="color:#00e5ff; font-weight: 700;">projects.</h2><br> <br><br>
+        <div class="row g-4">
+            <!-- Project 1 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 shadow-sm">
+                    <img src="./images/4Rent/Screenshot 2025-03-12 233418.png" class="card-img-top"
+                        alt="Rental Web App">
+                    <div class="card-body">
+                        <h5 class="card-title">Rental Web Application</h5>
+                        <p class="card-text">A full-stack MERN rental platform with real-time booking, user
+                            authentication, and responsive UI. Built as my final year project.</p>
+                        <!-- <div class="d-flex flex-wrap gap-2 mt-3">
+                            <button type="button" onclick="mern()" class="btn btn-outline-success btn-sm tech-btn"
+                                disabled>MongoDB</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm tech-btn"
+                                disabled>Express.js</button>
+                            <button type="button" class="btn btn-outline-primary btn-sm tech-btn"
+                                disabled>React</button>
+                            <button type="button" class="btn btn-outline-danger btn-sm tech-btn"
+                                disabled>Node.js</button>
+
+                        </div> -->
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="https://github.com/rinshad/rental-app" target="_blank"
+                            class="btn btn-outline-info btn-sm">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card h-100 shadow-sm">
+                    <img src="./images/likedin-proj/linkedin-clone.png" class="card-img-top" alt="Flutter Workshop">
+                    <div class="card-body">
+                        <h5 class="card-title">LinkedIn clone Project</h5>
+                        <p class="card-text">A LinkedIn clone built with HTML and CSS, featuring a modern UI, profile
+                            sections, news feed, and responsive design to mimic the LinkedIn experience.</p>
+                        <!-- <div class="d-flex flex-wrap gap-2 mt-3">
+                            <button type="button" onclick="mern()" class="btn btn-outline-success btn-sm tech-btn"
+                                disabled>HTML</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm tech-btn"
+                                disabled>CSS</button>
+                            <button type="button" class="btn btn-outline-primary btn-sm tech-btn"
+                                disabled>JavaScript</button>
+                           
+                        </div> -->
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="https://github.com/rinshad/flutter-workshop" target="_blank"
+                            class="btn btn-outline-info btn-sm">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="card h-100 shadow-sm">
+                    <img src="./images/portfolio/personal-portfolio.png" class="card-img-top" alt="Portfolio Website">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">This responsive portfolio site showcases my skills, projects, and contact
+                            info. Built with HTML, CSS, Bootstrap, and AOS.</p>
+                    </div>
+                    <!-- <div class="d-flex flex-wrap gap-2 mt-3">
+                            <button type="button" onclick="mern()" class="btn btn-outline-success btn-sm tech-btn"
+                                disabled>HTML</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm tech-btn"
+                                disabled>CSS</button>
+                            <button type="button" class="btn btn-outline-primary btn-sm tech-btn"
+                                disabled>Bootstrap</button>
+                                  <button type="button" class="btn btn-outline-danger btn-sm tech-btn"
+                                disabled>JavaScript</button>
+                           
+                           
+                        </div> -->
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="https://github.com/rinshad/portfolio" target="_blank"
+                            class="btn btn-outline-info btn-sm">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="color: #00e5ff;" data-aos="fade-up" data-aos-delay="300">
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container my-5" id="skills">
+        <h2 class="mb-4 " style="color:#00e5ff; font-weight: 700;" id="skills">skills.</h2>
+        <div class="row g-4 justify-content-center">
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="card border-0 shadow-sm py-3 px-2 text-center skill-card h-100 w-100">
+                    <div class="d-flex justify-content-center align-items-center mb-2">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                            alt="HTML5" class="skill-img">
+                    </div>
+                    <div class="skill-label">HTML5</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="card border-0 shadow-sm py-3 px-2 text-center skill-card h-100 w-100">
+                    <div class="d-flex justify-content-center align-items-center mb-2">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"
+                            class="skill-img">
+                    </div>
+                    <div class="skill-label">CSS3</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="300">
+                <div class="card border-0 shadow-sm py-3 px-2 text-center skill-card h-100 w-100">
+                    <div class="d-flex justify-content-center align-items-center mb-2">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                            alt="JavaScript" class="skill-img">
+                    </div>
+                    <div class="skill-label">JavaScript</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="400">
+                <div class="card border-0 shadow-sm py-3 px-2 text-center skill-card h-100 w-100">
+                    <div class="d-flex justify-content-center align-items-center mb-2">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                            alt="Bootstrap" class="skill-img">
+                    </div>
+                    <div class="skill-label">Bootstrap</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="500">
+                <div class="card border-0 shadow-sm py-3 px-2 text-center skill-card h-100 w-100">
+                    <div class="d-flex justify-content-center align-items-center mb-2">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                            alt="GitHub" class="skill-img">
+                    </div>
+                    <div class="skill-label">GitHub</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="600">
+                <div class="card border-0 shadow-sm py-3 px-2 text-center skill-card h-100 w-100">
+                    <div class="d-flex justify-content-center align-items-center mb-2">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                            alt="Figma" class="skill-img">
+                    </div>
+                    <div class="skill-label">Figma</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="700">
+                <div class="card border-0 shadow-sm py-3 px-2 text-center skill-card h-100 w-100">
+                    <div class="d-flex justify-content-center align-items-center mb-2">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"
+                            class="skill-img">
+                    </div>
+                    <div class="skill-label">Git</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+
+    </style>
+
+    <!-- Contact Section -->
+    <section class="container my-5" id="contact">
+        <h2 class="mb-4" style="color:#00e5ff; font-weight: 700;">contact.</h2>
+        <form method="POST" id="form">
+
+            <input type="hidden" name="access_key" value="39fc4d18-0191-4c86-968f-1cb90e13ffc8">
+
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" name="name" class="form-control" id="name" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" name="email" class="form-control" id="email" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-control">Submit</button>
+        </form>
+
+        <div id="result"></div>
+
+        <div>
+            <h3>connect me</h3>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5 shadow-lg"
+        style="width:100%; left:0; right:0; position:relative; font-family: 'Poppins', sans-serif; background: linear-gradient(90deg, #181c20 60%, #00e5ff22 100%); border-top: 2px solid #00e5ff33;">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-md-start text-center mb-2 mb-md-0">
+                    <span class="fw-bold" style="color:#00e5ff; font-size:1.1rem; letter-spacing:1px;">© 2025 Mohammed
+                        Rinshad.</span>
+                    <span class="text-secondary ms-2" style="font-size:0.98rem;">All rights reserved.</span>
+                </div>
+                <div class="col-md-6 text-md-end text-center">
+                    <a href="mailto:rinshad@example.com" class="text-light mx-2" title="Email">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                    <a href="https://github.com/rinshad" class="text-light mx-2" target="_blank" rel="noopener"
+                        title="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/rinshad" class="text-light mx-2" target="_blank" rel="noopener"
+                        title="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+                <style>
+                    .footer-icon:hover {
+                        transform: translateY(-4px) scale(1.08);
+                        box-shadow: 0 6px 18px #00e5ff33, 0 1.5px 6px #0002;
+                        text-decoration: none;
+                        opacity: 0.92;
+                    }
+                </style>
+            </div>
+        </div>
+        <style>
+
+        </style>
+    </footer>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/bootstrap.js"></script>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
