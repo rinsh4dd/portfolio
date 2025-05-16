@@ -187,14 +187,15 @@
      }
  }
 
- .footer-icon:hover {
-     color: #fff !important;
-     background: #00e5ff !important;
-     box-shadow: 0 0 12px #00e5ff88;
-     text-shadow: 0 0 8px #00e5ff55;
- }
 
  footer {
      border-top: 2px solid #00e5ff33;
      background: linear-gradient(90deg, #181c20 60%, #00e5ff22 100%);
+     
  }
+.footer-text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
