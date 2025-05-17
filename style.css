@@ -79,7 +79,7 @@
  .form-control {
      background: #181c1f;
      color: #e0f7fa;
-     border: 1px solid #00bcd4;
+     border: 2px solid #00bcd4;
  }
 
  .form-control:focus {
@@ -109,9 +109,6 @@
      border-top: 1px solid #00bcd4;
  }
 
-
-
- /* Custom scrollbar */
  ::-webkit-scrollbar {
      width: 8px;
      background: #23272b;
@@ -173,7 +170,7 @@
 
  #skills .skill-label {
      font-size: 1rem;
-     font-weight: 600;
+     font-weight: 800;
      margin-top: 8px;
  }
 
