@@ -24,10 +24,16 @@
      font-size: 22px;
      font-weight: 700;
      color: #00e5ff;
+     cursor: pointer;
  }
-.navbar-brand:hover{
-    color: aqua;
-}
+  .navbar-brand:active{
+    color: #00e5ff;
+  }
+    .navbar-brand:hover{
+        color: #00e5ff;
+
+    }
+
  .nav-link {
      color: #ffffff !important;
      font-weight: 400;
@@ -191,3 +197,14 @@
     transform: scale(1.1);
     transition: all .4s ease-in-out;
 }
+
+
+input::placeholder,
+textarea::placeholder {
+  color: #544848 !important;
+  font-size: 14px;
+  font-style: italic;
+  font-weight:600 ;
+  opacity: 1;
+}
+
