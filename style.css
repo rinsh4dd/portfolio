@@ -203,7 +203,6 @@ input::placeholder,
 textarea::placeholder {
   color: #544848 !important;
   font-size: 14px;
-  font-style: italic;
   font-weight:600 ;
   opacity: 1;
 }
