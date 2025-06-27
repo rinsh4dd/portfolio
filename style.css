@@ -207,4 +207,43 @@ textarea::placeholder {
   font-weight:550 ;
   opacity: 1;
 }
+.result-message {
+  padding: 12px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 1s ease, transform 0.5s ease;
+}
+
+.loading {
+  background-color: #f0f0f0;
+  color: #333;
+  animation: pulse 1s infinite;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
 
